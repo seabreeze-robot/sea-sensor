@@ -1,0 +1,33 @@
+{
+
+  "sea_show.LED1|block": "LED灯|引脚 %pin|状态 %value",
+  "sea_show.LED2|block": "LED灯|引脚 %pin|亮度 %value",
+  "sea_show.BreathLED|block": "呼吸灯|引脚 %pin",
+  "sea_show.RGB|block": "RGB七彩灯|引脚R %pin1|引脚G %pin2|引脚B %pin3|红色 %value1|绿色 %value2|蓝色 %value3",
+  "sea_show.RGB2|block": "RGB七彩灯|引脚R %pin1|引脚G %pin2|引脚B %pin3|显示 %value",
+
+  "sea_input.TouchPad|block": "触摸开关|引脚 %pin|返回 %value",
+  "sea_input.Rocker|block": "遥杆|VRX %pin1|VRY %pin2|SW %pin3|返回 %value",
+  "sea_input.Button|block": "按键|引脚 %pin|返回 %value",
+
+  "sea_sensor.Voice_Sensor|block": "声音传感器|引脚 %pin|返回 %value",
+  "sea_sensor.IR_Sensor|block": "红外传感器|引脚 %pin|  |%value|障碍物",
+  "sea_sensor.IR_Send|block": "红外发射|引脚 %pin",
+  "sea_sensor.Ultrasonic|block": "超声波|发射管脚 %Trig|接收管脚 %Echo",
+
+  "sea_music.Buzzer|block": "有源蜂鸣器|引脚 %pin|值 %value",
+
+  "sea_servo.Fan|block": "风扇|引脚 %pin|速度 %value",
+  "sea_servo.Servo|block": "舵机|引脚 %pin|角度 %value",
+
+  "sea_car.RGB_Car_Big|block": "小车RGB探照灯|红色 %value1|绿色 %value2|蓝色 %value3",
+  "sea_car.RGB_Car_Big2|block": "小车RGB探照灯|选择车灯颜色 %value",
+  "sea_car.Ultrasonic_Car|block": "超声波返回（cm）",
+  "sea_car.RGB_Car_Program|block": "七彩流水灯",
+  "sea_car.Music_Car|block": "小车音乐播放|%index",
+  "sea_car.Line_Sensor|block": "巡线传感器|位置 %direct|检测到 %value",
+  "sea_car.Avoid_Sensor|block": "避障传感器|检测到 %value",
+  "sea_car.Servo_Car|block": "小车舵机|编号 %num|角度 %value",
+  "sea_car.CarCtrl|block": "小车控制|%index",
+  "sea_car.CarCtrlSpeed|block": "小车控制|%index|速度 %speed"
+}
